@@ -58,7 +58,7 @@ attr_reader :species
   def walk_dogs
     #binding.pry
     #@pets[:dogs].mood = "happy"
-    Dog.mood="happy"
+    Dog.@mood="happy"
   end
 
 end
