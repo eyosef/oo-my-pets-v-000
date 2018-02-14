@@ -59,6 +59,7 @@ attr_reader :species
     # Dog.instance_variable_get(:@mood)
     # Dog.initialize
     mood = Dog.instance_variable_get(:@mood)
+    mood = "happy"
   end
 
 end
