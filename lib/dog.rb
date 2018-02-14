@@ -16,7 +16,7 @@ class Dog
     @mood
   end
 
-  
+
   # def walked_dog
   #   if Owner.walk_dogs
   #     @mood = "happy"
