@@ -79,7 +79,8 @@ attr_reader :species
         delete(:dogs)
       else @pets[:fishes]
         delete(:fishes)
-      end
+      end #if statement 
+    end #each iteration
   end
 
   # @pets[:dogs].each do |dog|
