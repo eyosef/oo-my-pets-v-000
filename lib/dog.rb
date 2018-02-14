@@ -9,6 +9,7 @@ class Dog
   end
 
   def self.mood
+  end
 
 
 
