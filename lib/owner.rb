@@ -82,8 +82,8 @@ attr_reader :species
   end
 
   def list_pets
+      binding.pry
     @pets.each_With_index { |key, value| puts "I have #{key} #{value}"}
-    binding.pry
   end
 
 
