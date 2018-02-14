@@ -87,7 +87,7 @@ attr_reader :species
     fish_counter = @pets[:fishes].count
     #binding.pry
 
-    puts "I have #{fish_counter} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
+    puts "I have #{fish_counter} fish, #{dog_counter} dog(s), and #{dog_counter} cat(s)."
     binding.pry
     #@pets.each_with_index { |key, value| puts "I have #{key} #{value}"}
   end
