@@ -13,7 +13,7 @@ class Dog
   end
 
   def mood =("nervous")
-    @mood=nervous
+    @mood="nervous"
   end
   #
   # def walked_dog
