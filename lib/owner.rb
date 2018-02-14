@@ -75,6 +75,7 @@ attr_reader :species
 
   def sell_pets
     @pets
+    binding.pry
   end
 
 end
