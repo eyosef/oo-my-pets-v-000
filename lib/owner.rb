@@ -74,7 +74,7 @@ attr_reader :species
   end
 
   def sell_pets
-    @pets.delete_if {|animal| animal = :dog }
+    @pets.each {|animal| animal = :dog }
     binding.pry
   end
 
