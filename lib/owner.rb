@@ -57,6 +57,8 @@ attr_reader :species
 
   def walk_dogs
     Dog.instance_variable_get(:@mood)
+    
+    
     @mood.method = "happy"
   end
 
