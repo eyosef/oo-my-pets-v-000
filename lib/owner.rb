@@ -70,7 +70,7 @@ attr_reader :species
   end
 
   def feed_fish
-    @pets[:fish].each { |instance| instance.mood = "happy" }
+    @pets[:fish].each{ |instance| instance.mood = "happy" }
   end
 
 end
