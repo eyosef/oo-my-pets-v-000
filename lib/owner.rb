@@ -75,12 +75,7 @@ attr_reader :species
 
   def sell_pets
     @pets.each do |pet|
-      if @pets[:dogs]
-        delete(:dogs)
-      else @pets[:fishes]
-        delete(:fishes)
-      end #if statement 
-    end #each iteration
+
   end
 
   # @pets[:dogs].each do |dog|
