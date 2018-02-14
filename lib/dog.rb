@@ -10,7 +10,7 @@ class Dog
 
   def self.walked_dog
     @mood = "happy"
-  end 
+  end
 
 
 
