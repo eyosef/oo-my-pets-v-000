@@ -82,7 +82,7 @@ attr_reader :species
   end
 
   def list_pets
-    fish_count = @pets[:fishes].count
+    fish_counter = @pets[:fishes].count
 
     @pets.each_with_index { |key, value| puts "I have #{key} #{value}"}
   end
