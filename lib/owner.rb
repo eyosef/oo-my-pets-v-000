@@ -63,7 +63,7 @@ attr_reader :species
     # end
 
     @pets[:dogs].each {|instance| instance.mood = "happy"}
-    
+
 
   end
 
