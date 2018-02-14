@@ -7,12 +7,12 @@ class Dog
     @name = name
     #@mood = "nervous"
 
-    if Owner.walk_dogs 
+    if Owner.walk_dogs
       @mood = "happy"
-    else 
+    else
       @mood = "nervous"
-    end 
-    
+    end
+
   end
 
 end
