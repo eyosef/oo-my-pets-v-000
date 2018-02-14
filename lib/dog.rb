@@ -14,6 +14,6 @@ class Dog
     else
       @mood = "nervous"
     end
-  end 
+  end
 
 end

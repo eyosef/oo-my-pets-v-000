@@ -56,10 +56,7 @@ attr_reader :species
   end
 
   def walk_dogs
-    # Dog.instance_variable_get(:@mood)
-    # Dog.initialize
-    Dog.instance_variable_get(:@mood)
-
+    Dog.walked_dog
   end
 
 end
