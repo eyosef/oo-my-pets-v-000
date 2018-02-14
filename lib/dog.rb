@@ -7,13 +7,13 @@ class Dog
     @name = name
     @mood = "nervous"
   end
-
-  def walked_dog
-    if Owner.walk_dogs
-      @mood = "happy"
-    else
-      @mood = "nervous"
-    end
-  end
+  # 
+  # def walked_dog
+  #   if Owner.walk_dogs
+  #     @mood = "happy"
+  #   else
+  #     @mood = "nervous"
+  #   end
+  # end
 
 end
