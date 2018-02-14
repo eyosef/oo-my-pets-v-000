@@ -65,6 +65,9 @@ attr_reader :species
     @pets[:dogs].each {|instance| instance.mood = "happy"}
   end
 
+  def play_with_cats
+  end
+
 end
 
 # @pets[:dogs] = [
