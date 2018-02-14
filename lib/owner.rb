@@ -57,10 +57,16 @@ attr_reader :species
 
   def walk_dogs
     @pets[:dogs]
-    
+
     binding.pry
 
     Dog.walked_dog
   end
 
 end
+
+# @pets[:dogs] = [ 
+#<Dog:0x0000000230b4c8 @mood="nervous", @name="Daisy">,
+#<Dog:0x0000000230b4c9 @mood="nervous", @name="Fido">,
+#<Dog:0x0000000230b4c1 @mood="nervous", @name="Rex">
+#]
