@@ -77,6 +77,12 @@ attr_reader :species
     @pets.each do |pet|
   end
 
+  # @pets[:dogs].each do |dog|
+  #   if specific_dog.name == dog.name
+  #     dog.mood = "excited"
+  #   end
+  # end
+
 end
 
 # @pets[:dogs] = [
