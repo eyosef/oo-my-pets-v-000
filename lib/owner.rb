@@ -65,7 +65,7 @@ attr_reader :species
 
 end
 
-# @pets[:dogs] = [ 
+# @pets[:dogs] = [
 #<Dog:0x0000000230b4c8 @mood="nervous", @name="Daisy">,
 #<Dog:0x0000000230b4c9 @mood="nervous", @name="Fido">,
 #<Dog:0x0000000230b4c1 @mood="nervous", @name="Rex">
