@@ -82,6 +82,7 @@ attr_reader :species
   end
 
   def list_pets
+    @pets.each_With_index { |key, value| }
   end
 
 
