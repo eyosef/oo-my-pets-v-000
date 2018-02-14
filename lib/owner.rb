@@ -77,6 +77,8 @@ attr_reader :species
     @pets[:dogs].each {|instance| instance.mood = "nervous"}
     @pets[:cats].each {|instance| instance.mood = "nervous"}
     @pets[:fishes].each {|instance| instance.mood = "nervous"}
+    @pets = Hash.new(0)
+    @pets
     binding.pry
   end
 
