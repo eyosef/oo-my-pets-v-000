@@ -74,7 +74,7 @@ attr_reader :species
   end
 
   def sell_pets
-    @pets.each do |pet|
+    @pets.delete_if {||}
 
   end
 
