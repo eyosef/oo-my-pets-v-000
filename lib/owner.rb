@@ -57,8 +57,9 @@ attr_reader :species
 
   def walk_dogs
     @pets[:dogs]
-    binding.pry
     
+    binding.pry
+
     Dog.walked_dog
   end
 
