@@ -57,8 +57,7 @@ attr_reader :species
 
   def walk_dogs
     Dog.initialize
-        binding.pry
-    dog.mood
+    Dog.mood
   end
 
 end
