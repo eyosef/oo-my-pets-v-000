@@ -74,7 +74,7 @@ attr_reader :species
   end
 
   def sell_pets
-    @pets.each {|animal| animal = :dog }
+    @pets.each {|instance| instance.mood = "nervous" }
     binding.pry
   end
 
