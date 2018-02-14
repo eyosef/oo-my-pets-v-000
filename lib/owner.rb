@@ -81,16 +81,8 @@ attr_reader :species
     @pets
   end
 
-  # @pets[:dogs].each do |dog|
-  #   if specific_dog.name == dog.name
-  #     dog.mood = "excited"
-  #   end
-  # end
+  def list_pets
+  end
+
 
 end
-
-# @pets[:dogs] = [
-#<Dog:0x0000000230b4c8 @mood="nervous", @name="Daisy">,
-#<Dog:0x0000000230b4c9 @mood="nervous", @name="Fido">,
-#<Dog:0x0000000230b4c1 @mood="nervous", @name="Rex">
-#]
