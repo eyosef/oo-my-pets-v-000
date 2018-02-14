@@ -8,9 +8,9 @@ class Dog
     @mood = "nervous"
   end
 
-  def self.mood
-    @mood
-  end
+  def self.walked_dog
+    @mood = "happy"
+  end 
 
 
 
