@@ -66,11 +66,11 @@ attr_reader :species
   end
 
   def play_with_cats
-    @pets[:cats].each{ |instance| instance.mood="happy" }
+    @pets[:cats].each{ |instance| instance.mood = "happy" }
   end
 
   def feed_fish
-
+    @pets[:fish].each { |instance| instance.mood = "happy" }
   end
 
 end
