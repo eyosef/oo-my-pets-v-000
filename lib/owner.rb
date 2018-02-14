@@ -56,7 +56,7 @@ attr_reader :species
   end
 
   def walk_dogs
-    @mood.method = "happy"
+    @mood.methods = "happy"
   end
 
 end
