@@ -61,7 +61,7 @@ attr_reader :species
     Dog.walked_dog
 
 
-    #binding.pry
+    binding.pry
   end
 
 end
