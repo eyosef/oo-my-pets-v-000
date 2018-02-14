@@ -56,7 +56,7 @@ attr_reader :species
   end
 
   def walk_dogs
-    # @pets[:dogs].each do |dog|
+    # @pets[:dogs].each do |dog| note to self, how to search for specific instance of dog
     #   if specific_dog.name == dog.name
     #     dog.mood = "excited"
     #   end
