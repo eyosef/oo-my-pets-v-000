@@ -57,7 +57,7 @@ attr_reader :species
 
   def walk_dogs
     Dog.walked_dog
-    
+
   end
 
 end
