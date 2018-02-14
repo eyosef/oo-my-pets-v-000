@@ -55,12 +55,13 @@ attr_reader :species
     @pets[:dogs] << dog_name
   end
 
-  def walk_dogs
-    @pets[:dogs]
+  def walk_dogs(specific_dog)
+    # @pets[:dogs].each do |dog|
+    #   if specific_dog.name == dog.name
+    #     dog.mood = "excited"
+    #   end
+    # end
 
-    binding.pry
-
-    Dog.walked_dog
   end
 
 end
