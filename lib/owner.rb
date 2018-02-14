@@ -58,8 +58,8 @@ attr_reader :species
   def walk_dogs
     # Dog.instance_variable_get(:@mood)
     # Dog.initialize
-    mood = Dog.instance_variable_get(:@mood)
-    mood = "happy"
+    Dog.instance_variable_get(:@mood)
+
   end
 
 end
